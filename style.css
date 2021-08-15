@@ -21,8 +21,11 @@ img {
 }
 
 .slogan {
-  margin: 0;
   margin-left: 550px;
+}
+
+.slogan h1 {
+  margin: 0;
 }
 
 .avatar {
