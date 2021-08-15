@@ -45,7 +45,6 @@ img {
   padding: 220px 50px;
   display: flex;
   align-items: center;
-  background-repeat: repeat;
 }
 
 @keyframes slide {
