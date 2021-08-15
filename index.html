@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Адвокат Братанов</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="/images/LBB-logos_transparent.png" alt="logo" />
+      </div>
+
+      <div class="slogan">
+        <h1>Slogan</h1>
+      </div>
+    </header>
+
+    <section class="intro">
+      <div class="avatar">
+        <!-- https://www.mockofun.com/tutorials/crop-picture-into-circle/ -->
+        <img src="/images/sample_photo.jpg" alt="avatar" />
+      </div>
+
+      <section class="short_bio">
+        <article class="bio">
+          <article class="title">
+            <h2>some header</h2>
+          </article>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            adipisci fuga possimus alias repudiandae, suscipit quas atque
+            cupiditate fugiat optio laborum provident, magnam distinctio
+            maiores. A ducimus odio animi eaque!
+          </p>
+        </article>
+
+        <div id="marquee">
+          <div id="text">
+            Адвокат / Lawyer / Адвокат / Lawyer / Адвокат / Lawyer / Адвокат /
+            Lawyer
+          </div>
+        </div>
+
+        <article class="bio english">
+          <article class="title">
+            <h2>some header</h2>
+          </article>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            adipisci fuga possimus alias repudiandae, suscipit quas atque
+            cupiditate fugiat optio laborum provident, magnam distinctio
+            maiores. A ducimus odio animi eaque!
+          </p>
+        </article>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <form action="action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Име</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Вашите имена.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Email</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Въведете вашият email.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Тема</label>
+              </div>
+              <div class="col-75">
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Напишете вашият въпрос.."
+                  style="height: 200px"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Изпрати" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
