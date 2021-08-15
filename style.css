@@ -1,8 +1,12 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+
 .header {
   display: flex;
   align-items: center;
   background: #ddd848;
-  margin-bottom: 50px;
 }
 
 .logo {
@@ -16,11 +20,11 @@ img {
 }
 
 .slogan {
-  margin-left: 400px;
+  margin-left: 550px;
 }
 
 .avatar {
-  margin: 50px 0 0 50px;
+  width: 50%;
 }
 
 .bio {
@@ -38,8 +42,10 @@ img {
 }
 
 .intro {
+  padding: 220px 100px;
   display: flex;
   align-items: center;
+  background-repeat: no-repeat;
 }
 
 @keyframes slide {
@@ -59,7 +65,8 @@ img {
   }
 }
 
-#marquee {
+.marquee {
+  margin: 50px 0;
   color: red;
   background: #f0f0f0;
   width: 100%;
@@ -69,7 +76,7 @@ img {
   position: relative;
 }
 
-#text {
+.text {
   position: absolute;
   top: 0;
   left: 0;
@@ -155,4 +162,8 @@ input[type="submit"] {
 
 .contact {
   width: 30%;
+}
+
+.black-dash {
+  color: black !important;
 }
