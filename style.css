@@ -24,7 +24,7 @@ img {
 }
 
 .avatar {
-  width: 50%;
+  width: 60%;
 }
 
 .bio {
@@ -32,7 +32,7 @@ img {
   width: 50%;
   background: rgb(160, 1, 1);
   border-radius: 8px;
-  padding: 10px;
+  padding: 10px 30px;
   text-align: center;
   font-size: 18px;
 }
@@ -42,7 +42,7 @@ img {
 }
 
 .intro {
-  padding: 220px 100px;
+  padding: 220px 50px;
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
@@ -161,7 +161,7 @@ input[type="submit"] {
 }
 
 .contact {
-  width: 30%;
+  width: 60%;
 }
 
 .black-dash {
