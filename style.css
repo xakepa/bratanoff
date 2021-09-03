@@ -28,11 +28,19 @@
   font-weight: 600;
 }
 
+.menu-ul a {
+  text-decoration: none;
+}
+
+.menu a:visited {
+  color: #fff;
+}
+
 .menu-ul li + li {
   padding-left: 30px;
 }
 
-.menu-ul li:hover {
+.menu-ul li a:hover {
   color: #c9210b;
   cursor: pointer;
 }
@@ -85,6 +93,7 @@ img {
   background-repeat: no-repeat;
   padding: 100px 50px;
   color: #fff;
+  margin-bottom: 7em;
 }
 
 @keyframes slide {
@@ -210,7 +219,7 @@ label {
 }
 
 .presentation {
-  padding: 200px 0 200px;
+  padding: 200px 100px 200px;
 }
 
 .separator {
@@ -219,13 +228,13 @@ label {
 }
 
 .bratanoff-presentation {
-  background: #ddd848;
+  background: #ffc90e;
   font-size: 30px;
 }
 
 .bratanoff-presentation {
   padding: 20px 40px;
   border-radius: 8px;
-  box-shadow: 2px 2px 50px red;
+  /* box-shadow: 4px 4px 50px #ffc90e; */
   font-family: "Pacifico", cursive;
 }
