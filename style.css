@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Ledger&display=swap");
 
+body {
+  background: #f9f9fb;
+}
+
 .shell {
   width: 80%;
   margin: auto;
