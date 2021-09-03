@@ -227,7 +227,7 @@ label {
 }
 
 .presentation {
-  padding: 200px 350px 200px;
+  padding: 200px 300px 200px;
 }
 
 .separator {
@@ -241,7 +241,7 @@ label {
 }
 
 .bratanoff-presentation {
-  padding: 20px 40px;
+  padding: 40px 100px;
   border-radius: 8px;
   /* box-shadow: 4px 4px 50px #ffc90e; */
   font-family: "Ledger", serif;
