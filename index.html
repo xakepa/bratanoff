@@ -4,115 +4,153 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="responsive.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
+    <link rel="stylesheet"
+    href=https://use.fontawesome.com/releases/v5.7.1/css/all.css>
+
     <title>Адвокат Братанов</title>
   </head>
   <body>
-    <header class="header">
-      <div class="logo">
-        <img src="images/logos_transparent.png" alt="logo" />
+    <div class="menu">
+      <div class="shell">
+        <ul class="menu-ul">
+          <li>начало</li>
+          <li>за мен</li>
+          <li>закони</li>
+          <li>статии</li>
+          <li>съвети</li>
+        </ul>
       </div>
+    </div>
+    <div class="shell">
+      <header class="header">
+        <div class="logo">
+          <img src="images/logos_transparent.png" alt="logo" />
+        </div>
 
-      <div class="slogan">
-        <h1>Slogan</h1>
-      </div>
-    </header>
+        <div class="slogan">
+          <h1></h1>
+        </div>
+      </header>
 
-    <section class="intro" style="background-image: url(images/bg.jpg)">
-      <div class="avatar">
-        <!-- https://www.mockofun.com/tutorials/crop-picture-into-circle/ -->
-        <img src="images/sample_photo.png" alt="avatar" />
-      </div>
+      <section class="intro" style="background-image: url(images/bg.jpg)">
+        <div class="avatar">
+          <!-- https://www.mockofun.com/tutorials/crop-picture-into-circle/ -->
+          <img src="images/sample_photo.png" alt="avatar" />
+        </div>
 
-      <section class="short_bio">
-        <article class="bio">
-          <article class="title">
-            <h2>some header</h2>
+        <section class="short_bio">
+          <article class="bio">
+            <article class="title">
+              <h2>Добре дошли</h2>
+            </article>
+
+            <p>
+              Здравейте, Аз съм адвокат Борислав Братанов (Борис Братанофф/Boris
+              Bratanoff), регистриран член при ВАК/Адвокатска колегия – Варна.
+              Магистър съм по право и магистрат и Магистър по приложна
+              психология. Заповядайте ако имате въпроси!
+            </p>
           </article>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            adipisci fuga possimus alias repudiandae, suscipit quas atque
-            cupiditate fugiat optio laborum provident, magnam distinctio
-            maiores. A ducimus odio animi eaque!
-          </p>
-        </article>
-
-        <div class="marquee">
-          <div class="text">
-            Адвокат <strong class="black-dash">/</strong> Lawyer
-            <strong class="black-dash">/</strong> Адвокат
-            <strong class="black-dash">/</strong> Lawyer
-            <strong class="black-dash">/</strong> Адвокат
-            <strong class="black-dash">/</strong> Lawyer
-            <strong class="black-dash">/</strong> Адвокат
-            <strong class="black-dash">/</strong> Lawyer
-            <strong class="black-dash">/</strong>
+          <div class="marquee">
+            <div class="text">
+              Адвокат <strong class="black-dash">/</strong> Lawyer
+              <strong class="black-dash">/</strong> Адвокат
+              <strong class="black-dash">/</strong> Lawyer
+              <strong class="black-dash">/</strong> Адвокат
+              <strong class="black-dash">/</strong> Lawyer
+              <strong class="black-dash">/</strong> Адвокат
+              <strong class="black-dash">/</strong> Lawyer
+              <strong class="black-dash">/</strong>
+            </div>
           </div>
-        </div>
 
-        <article class="bio english">
-          <article class="title">
-            <h2>some header</h2>
+          <article class="bio english">
+            <article class="title">
+              <h2>Welcome</h2>
+            </article>
+
+            <p>
+              Hello, I am lawyer Borislav Bratanov (Boris Bratanoff), registered
+              member of VAK/ Bar association - Varna. I have a master's degree
+              in law and a master's degree and a master's degree in applied
+              psychology. If you have any questions you are welcome!
+            </p>
           </article>
+        </section>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            adipisci fuga possimus alias repudiandae, suscipit quas atque
-            cupiditate fugiat optio laborum provident, magnam distinctio
-            maiores. A ducimus odio animi eaque!
-          </p>
-        </article>
-      </section>
+        <section class="contact">
+          <ul>
+            <li class="lawyer_name">
+              <i class="fa fa-user-tie"></i>
+              <p>адв. борис братанов</p>
+            </li>
 
-      <section class="contact">
-        <div class="container">
-          <form action="action_page.php">
-            <div class="row">
-              <div class="col-25">
-                <label for="fname">Име</label>
-              </div>
-              <div class="col-75">
-                <input
-                  type="text"
-                  id="fname"
-                  name="firstname"
-                  placeholder="Вашите имена.."
-                />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="lname">Email</label>
-              </div>
-              <div class="col-75">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Въведете вашият email.."
-                />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="subject">Тема</label>
-              </div>
-              <div class="col-75">
-                <textarea
-                  id="subject"
-                  name="subject"
-                  placeholder="Напишете вашият въпрос.."
-                  style="height: 200px"
-                ></textarea>
-              </div>
-            </div>
-            <div class="row">
-              <input type="submit" value="Изпрати" />
-            </div>
+            <li>
+              <i class="fa fa-map-marker-alt"></i>
+              <p class="address">
+                <strong>Адрес:</strong> гр. Варна, ж.к. Трошево, ул. Добромир 19
+              </p>
+            </li>
+
+            <li>
+              <i class="fa fa-paper-plane"></i>
+              <p><strong>Email:</strong> someone@mail.com</p>
+            </li>
+
+            <li>
+              <i class="fa fa-phone"></i>
+              <p><strong>Телефон:</strong> 0899 552 011</p>
+            </li>
+          </ul>
+
+          <form class="form" action="#">
+            <label for="names">Вашите имена</label>
+            <input
+              type="text"
+              id="names"
+              name="names"
+              names
+              name="names"
+              placeholder="Име и фамилия.."
+            />
+
+            <label for="email">Вашият email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="someone@mail.com"
+            />
+
+            <label for="phone">Телефон за връзка</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="0882 123456"
+            />
+
+            <label for="subject">Съобщение</label>
+            <textarea
+              name="subject"
+              id="subject"
+              placeholder="Напишете вашето съобщение тук.."
+              cols="20"
+              rows="8"
+            ></textarea>
+
+            <input type="submit" value="изпрати" />
           </form>
-        </div>
+        </section>
       </section>
+    </div>
+
+    <section class="presentation">
+      
     </section>
   </body>
 </html>

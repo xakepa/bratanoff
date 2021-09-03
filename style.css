@@ -1,6 +1,37 @@
-body {
-  width: 80%;
+.shell {
+  width: 85%;
   margin: auto;
+}
+
+.menu {
+  color: #000;
+  height: 50px;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+}
+
+.menu-ul {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  color: #fff;
+  list-style: none;
+  align-items: center;
+  margin-right: 1em;
+  font-weight: 600;
+}
+
+.menu-ul li + li {
+  padding-left: 30px;
+}
+
+.menu-ul li:hover {
+  color: #c9210b;
+  cursor: pointer;
 }
 
 .header {
@@ -29,17 +60,17 @@ img {
 }
 
 .avatar {
-  width: 60%;
+  width: 70%;
 }
 
 .bio {
   margin-left: 20%;
-  width: 50%;
+  width: 60%;
   background: rgb(160, 1, 1);
   border-radius: 8px;
   padding: 10px 30px;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .english {
@@ -47,10 +78,9 @@ img {
 }
 
 .intro {
-  padding: 220px 50px;
   display: flex;
-  align-items: center;
   background-repeat: no-repeat;
+  padding: 100px 50px;
 }
 
 @keyframes slide {
@@ -94,29 +124,68 @@ img {
   animation-iteration-count: infinite;
 }
 
+.black-dash {
+  color: black;
+}
+
 /* -------------------------------------------------------------------- *\
 	Contact form
 \* -------------------------------------------------------------------- */
 
-/* Style inputs, select elements and textareas */
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
+.contact {
+  width: 70%;
+  background: #ddd848;
+  border-radius: 8px;
 }
 
-/* Style the label to display next to the inputs */
-label {
-  padding: 12px 12px 12px 0;
+.contact ul {
+  list-style: none;
+  padding-left: 6%;
+}
+
+.contact p,
+.address {
   display: inline-block;
+  font-size: 20px;
+  vertical-align: middle;
+  padding-left: 10px;
+  margin: 10px 0;
 }
 
-/* Style the submit button */
+.fa {
+  color: darkblue;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  align-items: center;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.lawyer_name p {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.address {
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 285px;
+  margin: auto;
+}
+
+input,
+textarea {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
 input[type="submit"] {
   background-color: #04aa6d;
   color: white;
@@ -124,51 +193,24 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  text-transform: uppercase;
 }
 
-/* Style the container */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+input[type="submit"]:hover {
+  background-color: #00ca80;
 }
 
-/* Floating column for labels: 25% width */
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
+label {
+  padding-bottom: 5px;
 }
 
-/* Floating column for inputs: 75% width */
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
+.presentation {
+  background-color: grey;
+  height: 50vh;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25,
-  .col-75,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
-.contact {
-  width: 60%;
-}
-
-.black-dash {
-  color: black !important;
+hr {
+  height: 4em;
+  opacity: 0.8;
+  border: none;
 }

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 414px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  section.inro {
+    display: block;
+    padding: 0;
+    background: none;
+  }
+
+  .bio,
+  .bio-english,
+  .contact {
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+}
