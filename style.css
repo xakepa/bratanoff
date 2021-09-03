@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 .shell {
   width: 85%;
   margin: auto;
@@ -208,12 +210,22 @@ label {
 }
 
 .presentation {
-  background-color: grey;
-  height: 50vh;
+  padding: 200px 0 200px;
 }
 
-hr {
-  height: 4em;
-  opacity: 0.8;
-  border: none;
+.separator {
+  opacity: 0.9;
+  margin-bottom: -5px;
+}
+
+.bratanoff-presentation {
+  background: #ddd848;
+  font-size: 30px;
+}
+
+.bratanoff-presentation {
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 50px red;
+  font-family: "Pacifico", cursive;
 }
