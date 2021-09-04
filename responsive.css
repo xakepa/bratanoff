@@ -45,14 +45,14 @@
     width: 100%;
     margin: 40px 0;
   }
-}
 
-section.presentation {
-  padding: 0;
-}
+  section.presentation {
+    padding: 0;
+  }
 
-article.bratanoff-presentation {
-  border-radius: 0;
-  padding: 40px 60px;
-  text-align: center;
+  article.bratanoff-presentation {
+    border-radius: 0;
+    padding: 40px 60px;
+    text-align: center;
+  }
 }
