@@ -200,6 +200,10 @@ img {
   margin: auto;
 }
 
+label {
+  font-size: 18px;
+}
+
 input,
 textarea {
   border: 1px solid gray;
