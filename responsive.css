@@ -1,3 +1,42 @@
+@media only screen and (max-width: 900px) {
+  div.shell {
+    width: 100%;
+  }
+
+  article.bio,
+  .avatar,
+  article.bio-english {
+    width: 73%;
+    margin: auto;
+  }
+
+  div:nth-child(2) > section {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    padding: 0;
+    background-repeat: repeat;
+  }
+
+  div.avatar {
+    width: 20%;
+  }
+
+  section.contact {
+    width: 80%;
+    margin: 40px auto;
+  }
+
+  form.form {
+    max-width: 80%;
+    margin: 30px auto;
+  }
+
+  section.presentation {
+    padding: 30px 84px 30px;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   * {
     box-sizing: border-box;
