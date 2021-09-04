@@ -66,7 +66,7 @@
     width: 100%;
   }
 
-  div:nth-child(2) > section {
+  body > div:nth-child(3) > section {
     display: flex;
     flex-flow: column wrap;
     margin: auto;
