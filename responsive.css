@@ -3,8 +3,11 @@
     width: 100%;
   }
 
+  ul.menu-ul {
+    justify-content: space-evenly;
+  }
+
   article.bio,
-  .avatar,
   article.bio-english {
     width: 73%;
     margin: auto;
@@ -19,7 +22,8 @@
   }
 
   div.avatar {
-    width: 20%;
+    width: 40%;
+    margin: 70px auto;
   }
 
   section.contact {
@@ -85,6 +89,10 @@
   div.avatar {
     width: 70%;
     padding: 40px 0;
+  }
+
+  div.avatar img {
+    height: 30%;
   }
 
   section.contact {
