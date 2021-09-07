@@ -59,6 +59,10 @@
           <li>
             <a href="#">съвети</a>
           </li>
+
+          <li>
+            <a href="#">контакти</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -177,7 +181,7 @@
               type="tel"
               id="phone"
               name="phone"
-              placeholder="0882 123456"
+              placeholder="напр 0882 123456"
             />
 
             <label for="subject">Съобщение</label>
@@ -374,7 +378,7 @@
                   </p>
                 </div>
               </div>
-              <a id="administrative" href="#">Повече</a>
+              <a class="view-btn" id="administrative" href="#">покажи повече</a>
             </div>
           </article>
 
@@ -399,6 +403,8 @@
           </article>
         </div>
       </section>
+
+      <div class="separator"></div>
     
       <div class="shell">
     <section class="protect-your-rights" style="background-image: url(images/pexels-md-abdul-halim-2333293.jpg)">
@@ -520,12 +526,6 @@
       </div>
     </footer>
 
-    <script>
-      $("#administrative").on("click", function () {
-        $(".wrap, a").toggleClass("active");
-
-        return false;
-      });
-    </script>
+    <script type="text/javascript" src="effect.js"></script>
   </body>
 </html>

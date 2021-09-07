@@ -258,7 +258,7 @@ label {
 \* -------------------------------------------------------------------- */
 
 .types-laws {
-  padding: 25em 50px 2em;
+  padding: 40em 50px 2em;
 }
 
 .laws-wrapper {
@@ -273,10 +273,32 @@ label {
   border-radius: 8px;
   border: 2px solid black;
   position: relative;
+  text-align: center;
 }
 
 .law h2 {
   font-size: 20px;
+  color: #fff;
+}
+
+#administrative {
+  font-family: "Arial";
+  background-color: #04aa6d;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 8px;
+  display: block;
+  border: none;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+}
+
+#administrative:hover {
+  border: none;
+  background-color: #00ca80;
 }
 
 /* -------------------------------------------------------------------- *\
