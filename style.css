@@ -419,7 +419,7 @@ label {
 .carousel {
   position: relative;
   width: 100%;
-  max-width: 80%;
+  max-width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
