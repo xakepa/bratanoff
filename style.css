@@ -645,7 +645,10 @@ label {
 }
 
 .fa-viber {
-  color: #7360f2;
+  color: #fff;
+  background: #7360f2;
+  border-radius: 9px;
+  padding: 2px;
 }
 
 .social__media {
