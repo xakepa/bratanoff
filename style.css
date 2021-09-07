@@ -21,6 +21,10 @@ body {
   z-index: 1;
 }
 
+.contact li a {
+  text-decoration: none;
+}
+
 .menu-ul {
   display: flex;
   justify-content: flex-end;
@@ -239,7 +243,7 @@ label {
 }
 
 .separator {
-  height: 10vh;
+  height: 20vh;
 }
 
 .bratanoff-presentation {
@@ -258,7 +262,7 @@ label {
 \* -------------------------------------------------------------------- */
 
 .types-laws {
-  padding: 40em 50px 2em;
+  padding: 50em 50px 2em;
 }
 
 .laws-wrapper {
