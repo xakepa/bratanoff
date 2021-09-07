@@ -35,6 +35,7 @@ body {
 .menu-ul a {
   color: #fff;
   text-decoration: none;
+  font-family: "Arial";
 }
 
 .menu a:visited {
@@ -424,7 +425,6 @@ p {
   /* animation-direction: reverse; */
 }
 
-
 .carousel__item:nth-child(1) {
   -webkit-animation-delay: calc(3s * -1);
   animation-delay: calc(3s * -1);
@@ -589,4 +589,54 @@ p {
     opacity: 0;
     visibility: hidden;
   }
+}
+
+.footer {
+  background-color: #000;
+}
+
+.fab {
+  font-size: 50px;
+  color: #1877f2;
+}
+
+.fa-twitter {
+  color: #1d9bf0;
+}
+
+.fa-instagram {
+  color: #c32c71;
+}
+
+.fa-youtube {
+  color: #c9210b;
+}
+
+.social__media {
+  display: flex;
+  max-width: 300px;
+  justify-content: space-between;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  color: rgb(204, 204, 204);
+  padding-bottom: 50px;
+}
+
+.footer-title {
+  text-align: center;
+}
+
+.footer-title h3 {
+  text-transform: uppercase;
+  margin: 0;
+  color: rgb(204, 204, 204);
+  padding-top: 30px;
+  font-family: "Arial";
 }
