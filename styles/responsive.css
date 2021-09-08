@@ -56,21 +56,27 @@
   nav.menu {
     height: auto;
     position: static;
+    justify-content: center;
   }
 
-  .menu-ul {
+  nav.menu .menu-ul {
     flex-flow: column wrap;
+    padding-left: 0;
   }
 
-  .shell .menu-ul li + li {
-    padding: 20px 0 0 0;
+  nav.menu .menu-ul li {
+    padding: 0 0 8px 0;
   }
+
+  /* .shell .menu-ul li + li {
+    padding: 20px 0 0 0;
+  } */
 
   div.shell {
     width: 100%;
   }
 
-  body > div:nth-child(3) > section {
+  body > section.intro.responsive {
     display: flex;
     flex-flow: column wrap;
     margin: auto;
@@ -89,6 +95,7 @@
   div.avatar {
     width: 70%;
     padding: 40px 0;
+    margin: auto;
   }
 
   div.avatar img {
