@@ -68,9 +68,9 @@
     padding: 0 0 8px 0;
   }
 
-  /* .shell .menu-ul li + li {
-    padding: 20px 0 0 0;
-  } */
+  div.separator img {
+    width: 20%;
+  }
 
   div.shell {
     width: 100%;
