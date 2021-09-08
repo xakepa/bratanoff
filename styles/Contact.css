@@ -187,6 +187,10 @@
   fill: #c9210b;
 }
 
+.u-active-white a {
+  color: #000;
+}
+
 .u-section-1 .u-container-layout-4 {
   padding: 30px;
 }
