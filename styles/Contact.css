@@ -53,6 +53,10 @@
   padding-bottom: 3em;
 }
 
+.u-palette-1-base {
+  background: orange;
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 737px;
 }
@@ -177,15 +181,25 @@
   background-image: none;
 }
 
+.u-text-custom-color-1 svg,
+.u-section-1 .u-icon-3,
+.u-svg-content {
+  fill: #c9210b;
+}
+
 .u-section-1 .u-container-layout-4 {
   padding: 30px;
+}
+
+.u-svg-link {
+  padding-right: 4px;
 }
 
 .u-section-1 .u-icon-3 {
   height: 64px;
   width: 64px;
   background-image: none;
-  color: rgb(16, 129, 224) !important;
+  color: #c9210b;
   margin: 0 auto;
 }
 
