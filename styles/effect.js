@@ -38,3 +38,12 @@ $(".go-to-top").click(function () {
     "slow"
   );
 });
+
+$(".about").click(function () {
+  $("html,body").animate(
+    {
+      scrollTop: $(".presentation").offset().top,
+    },
+    "slow"
+  );
+});
