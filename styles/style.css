@@ -643,11 +643,23 @@ label {
 
 .fab {
   font-size: 50px;
+}
+
+.fa-facebook {
+  font-size: 50px;
   color: #1877f2;
+}
+
+.fa-facebook:hover {
+  color: #619eee;
 }
 
 .fa-twitter {
   color: #1d9bf0;
+}
+
+.fa-twitter:hover {
+  color: #7dc2f0;
 }
 
 .fa-whatsapp {
@@ -657,11 +669,19 @@ label {
   padding: 2px;
 }
 
+.fa-whatsapp:hover {
+  background: #61ee74;
+}
+
 .fa-viber {
   color: #fff;
   background: #7360f2;
   border-radius: 9px;
   padding: 2px;
+}
+
+.fa-viber:hover {
+  background: #998afa;
 }
 
 .social__media {
