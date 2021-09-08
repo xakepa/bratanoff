@@ -243,7 +243,12 @@ label {
 }
 
 .separator {
-  height: 20vh;
+  text-align: center;
+  padding: 4em 0;
+}
+
+.separator img {
+  width: 10%;
 }
 
 .bratanoff-presentation {
