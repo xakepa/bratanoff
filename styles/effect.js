@@ -47,3 +47,13 @@ $(".about").click(function () {
     "slow"
   );
 });
+
+function YNconfirm() {
+  if (
+    window.confirm(
+      "Ще бъдете прехвърлен към друг сайт. Желаете ли да продължите?"
+    )
+  ) {
+    window.location.href = "https://lex.bg/laws/tree/laws";
+  }
+}

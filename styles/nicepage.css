@@ -5373,9 +5373,7 @@ a {
 .u-form-horizontal .input-group {
   width: auto;
 }
-.u-form-control-hidden {
-  display: none !important;
-}
+
 .u-form-horizontal .u-btn-submit,
 .u-form-vertical .u-btn-submit {
   margin-top: 1px;
@@ -32499,7 +32497,7 @@ a.u-link.u-text-hover-palette-2-light-3:hover {
 .u-text-palette-2-base,
 a.u-button-style.u-text-palette-2-base,
 a.u-button-style.u-text-palette-2-base[class*="u-border-"] {
-  color: #ffffff !important;
+  color: #000 !important;
 }
 a.u-button-style.u-text-palette-2-base:hover,
 a.u-button-style.u-text-palette-2-base[class*="u-border-"]:hover,
