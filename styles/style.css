@@ -260,7 +260,7 @@ img {
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 324px;
+  max-width: 350px;
   margin: auto;
 }
 
