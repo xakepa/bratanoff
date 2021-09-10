@@ -38,6 +38,8 @@
         "logo": "images/default-logo.png"
       }
     </script>
+
+    <script type="text/javascript" src="styles/effect.js"></script>
     <meta name="theme-color" content="#478ac9" />
     <meta property="og:title" content="Contact" />
     <meta property="og:type" content="website" />
@@ -50,19 +52,22 @@
           <li>
             <a href="index.html">начало</a>
           </li>
+
           <li>
-            <a href="#">за мен</a>
-          </li>
-          <li>
-            <a href="https://lex.bg/laws/tree/laws">закони</a>
-          </li>
-          <li>
-            <a href="#">статии</a>
-          </li>
-          <li>
-            <a href="#">съвети</a>
+            <a class="about" href="index.html#presentation">за мен</a>
           </li>
 
+          <li>
+            <a onclick="YNconfirm(); return false" href="https://lex.bg/laws/tree/laws">закони</a>
+          </li>
+
+          <li>
+            <a class="go-to-laws" href="#">статии</a>
+          </li>
+
+          <li>
+            <a class="tips" href="index.html#advices">съвети</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -174,7 +179,7 @@
                     u-align-center u-form-group u-form-submit u-form-group-5
                   "
                 >
-                  <a
+                  <a style="color: #fff"
                     href="#"
                     class="
                       u-active-white

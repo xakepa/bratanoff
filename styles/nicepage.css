@@ -28955,9 +28955,9 @@ li.active > a.u-button-style.u-button-style.u-border-active-grey-light-3 {
   stroke: #ffffff;
 }
 .u-button-style.u-border-white {
-  border-color: #ffffff !important;
+  border-color: #332929 !important;
   color: #ffffff !important;
-  background-color: transparent !important;
+  background-color: #332929 !important;
 }
 .u-button-style.u-border-white:hover,
 .u-button-style.u-border-white:focus {
@@ -32497,7 +32497,7 @@ a.u-link.u-text-hover-palette-2-light-3:hover {
 .u-text-palette-2-base,
 a.u-button-style.u-text-palette-2-base,
 a.u-button-style.u-text-palette-2-base[class*="u-border-"] {
-  color: #000 !important;
+  color: #fff;
 }
 a.u-button-style.u-text-palette-2-base:hover,
 a.u-button-style.u-text-palette-2-base[class*="u-border-"]:hover,

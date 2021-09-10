@@ -119,7 +119,11 @@ img {
   color: #fff;
 }
 
-@keyframes slide {
+/* -------------------------------------------------------------------- *\
+  Scrolling text
+\* -------------------------------------------------------------------- */
+
+/* @keyframes slide {
   from {
     left: 100%;
   }
@@ -160,9 +164,56 @@ img {
   animation-iteration-count: infinite;
 }
 
+ */
+
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.m-scroll {
+  display: flex;
+  position: relative;
+  margin: 50px 0;
+  color: red;
+  background: #ddd848;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.m-scroll__title {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  transform: scale(2);
+  transition: all 1s ease;
+}
+
+.scroll-wrapper {
+  display: flex;
+  animation: scrollText 15s infinite linear;
+}
+
 .black-dash {
   color: black;
 }
+
+/* div:hover {
+  animation-play-state: paused;
+} */
 
 /* -------------------------------------------------------------------- *\
 	Contact form

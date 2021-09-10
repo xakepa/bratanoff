@@ -57,3 +57,21 @@ function YNconfirm() {
     window.location.href = "https://lex.bg/laws/tree/laws";
   }
 }
+
+// $(document).ready(function () {
+//   $("html, body").animate(
+//     {
+//       scrollTop: $("#advices").offset().top,
+//     },
+//     1000
+//   );
+// });
+
+// $(".about").ready(function () {
+//   $("html, body").animate(
+//     {
+//       scrollTop: $("#presentation").offset().top,
+//     },
+//     1000
+//   );
+// });
