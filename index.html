@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="адвокат варна, Братанофф, Борис братанов, адвокат, варна" />
     <link rel="stylesheet" href="styles/responsive.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
@@ -14,7 +15,7 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-
+    
     <title>Адвокат Братанов</title>
 
     <!-- Smartsupp Live Chat script -->
@@ -164,7 +165,8 @@
             </li>
           </ul>
 
-          <form class="form" action="#">
+            <form id="my-form" class="form" action="https://formspree.io/f/xyylnqag" method="POST">
+
             <label for="names">Вашите имена</label>
             <input
               type="text"
@@ -191,14 +193,16 @@
 
             <label for="subject">Съобщение</label>
             <textarea
-              name="subject"
-              id="subject"
+            type="text"
+              name="message"
+              id="message"
               placeholder="Напишете вашето съобщение тук.."
               cols="20"
               rows="8"
             ></textarea>
 
-            <input type="submit" value="изпрати" />
+            <input type="submit" id="my-form-button" value="изпрати"></input>
+            <p id="my-form-status"></p>
           </form>
         </section>
       </section>
@@ -547,6 +551,7 @@
       </div>
     </footer>
 
-    <script type="text/javascript" src="styles/effect.js"></script>
+    <script type="text/javascript" src="styles/form-handler.js"></script>
+    <script type="text/javascript" src="styles/effects.js"></script>
   </body>
 </html>

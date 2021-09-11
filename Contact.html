@@ -6,9 +6,11 @@
     <meta name="keywords" content="Пишете ми" />
     <meta name="description" content="" />
     <meta name="page_type" content="np-template-header-footer-from-plugin" />
-    <title>Contact</title>
+    <title>Б. Братанов - Контакти</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
     <link rel="stylesheet" href="styles/nicepage.css" media="screen" />
     <link rel="stylesheet" href="styles/Contact.css" media="screen" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet"
     href=https://use.fontawesome.com/releases/v5.7.1/css/all.css>
     <script
@@ -38,39 +40,35 @@
         "logo": "images/default-logo.png"
       }
     </script>
-
-    <script type="text/javascript" src="styles/effect.js"></script>
     <meta name="theme-color" content="#478ac9" />
     <meta property="og:title" content="Contact" />
     <meta property="og:type" content="website" />
   </head>
+
   <body class="u-body">
-    <header class="u-clearfix u-header u-header" id="sec-0a9e">
-      <nav class="menu">
-      
-        <ul class="menu-ul">
-          <li>
-            <a href="index.html">начало</a>
-          </li>
-
-          <li>
-            <a class="about" href="index.html#presentation">за мен</a>
-          </li>
-
-          <li>
-            <a onclick="YNconfirm(); return false" href="https://lex.bg/laws/tree/laws">закони</a>
-          </li>
-
-          <li>
-            <a class="go-to-laws" href="#">статии</a>
-          </li>
-
-          <li>
-            <a class="tips" href="index.html#advices">съвети</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="menu">
+      <ul class="menu-ul">
+        <li>
+          <a class="go-to-top" href="index.html">начало</a>
+        </li>
+        <li>
+          <a class="about" href="#">за мен</a>
+        </li>
+        <li>
+          <a
+            onclick="YNconfirm(); return false"
+            href="https://lex.bg/laws/tree/laws"
+            >закони</a
+          >
+        </li>
+        <li>
+          <a class="go-to-laws" href="#">статии</a>
+        </li>
+        <li>
+          <a class="tips" href="#">съвети</a>
+        </li>
+      </ul>
+    </nav>
     <section
       class="u-clearfix u-palette-2-dark-3 u-section-1"
       id="carousel_328c"
@@ -80,9 +78,9 @@
           class="
             u-align-center
             u-container-style
+            u-custom-color-3
             u-expanded-width-xs
             u-group
-            u-palette-1-base
             u-group-1
           "
         >
@@ -101,7 +99,7 @@
               "
             >
               <form
-                action="#"
+                action="https://formspree.io/f/xyylnqag"
                 method="POST"
                 class="
                   u-clearfix u-form-spacing-28 u-form-vertical u-inner-form
@@ -111,10 +109,7 @@
                 name="form"
               >
                 <div class="u-form-group u-form-name u-form-group-1">
-                  <label
-                    for="name-5a14"
-                    class="u-form-control-hidden u-label"
-                    wfd-invisible="true"
+                  <label for="name-5a14" class="u-label" wfd-invisible="true"
                     >Име</label
                   >
                   <input
@@ -124,13 +119,11 @@
                     name="name"
                     class="u-input u-input-rectangle u-white"
                     required=""
+                    maxlength="50"
                   />
                 </div>
                 <div class="u-form-email u-form-group u-form-group-2">
-                  <label
-                    for="email-5a14"
-                    class="u-form-control-hidden u-label"
-                    wfd-invisible="true"
+                  <label for="email-5a14" class="u-label" wfd-invisible="true"
                     >Email</label
                   >
                   <input
@@ -140,13 +133,11 @@
                     name="email"
                     class="u-input u-input-rectangle u-white"
                     required=""
+                    maxlength="50"
                   />
                 </div>
                 <div class="u-form-group u-form-phone u-form-group-3">
-                  <label
-                    for="phone-cdcc"
-                    class="u-form-control-hidden u-label"
-                  >Телефон</label>
+                  <label for="phone-cdcc" class="u-label">Телефон</label>
                   <input
                     type="tel"
                     pattern="\+?\d{0,3}[\s\(\-]?([0-9]{2,3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})"
@@ -155,13 +146,11 @@
                     name="phone"
                     class="u-input u-input-rectangle u-white"
                     required=""
+                    maxlength="24"
                   />
                 </div>
                 <div class="u-form-group u-form-message u-form-group-4">
-                  <label
-                    for="message-5a14"
-                    class="u-form-control-hidden u-label"
-                    wfd-invisible="true"
+                  <label for="message-5a14" class="u-label" wfd-invisible="true"
                     >Съобщение</label
                   >
                   <textarea
@@ -179,24 +168,28 @@
                     u-align-center u-form-group u-form-submit u-form-group-5
                   "
                 >
-                  <a style="color: #fff"
+                  <a
                     href="#"
                     class="
                       u-active-white
-                      u-border-2
-                      u-border-white
+                      u-border-none
                       u-btn
                       u-btn-submit
                       u-button-style
+                      u-custom-color-4
                       u-hover-white
-                      u-none
                       u-text-hover-palette-2-base
-                      u-text-palette-2-base
+                      u-text-white
                       u-btn-1
                     "
                     >изпрати</a
                   >
-
+                  <input
+                    type="submit"
+                    value="submit"
+                    class="u-form-control-hidden"
+                    wfd-invisible="true"
+                  />
                 </div>
                 <div
                   class="u-form-send-message u-form-send-success"
@@ -208,8 +201,8 @@
                   class="u-form-send-error u-form-send-message"
                   wfd-invisible="true"
                 >
-                  Не успяхме да изпратим вашето съобщение. Моля оправете
-                  грешките и опитайте отново.
+                  Не успяхме да изпратим вашето съобщение. Моля проверете интернет връзката
+                  си и опитайте отново.
                 </div>
                 <input
                   type="hidden"
@@ -223,51 +216,305 @@
         </div>
         <div class="u-expanded-width-md u-expanded-width-sm u-list u-list-1">
           <div class="u-repeater u-repeater-1">
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-1">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2"><span style="border-color: red;" class="u-border-2 u-border-palette-1-base u-icon u-icon-circle u-spacing-10 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="-42 0 512 512.002" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b157"></use></svg><svg class="u-svg-content" viewBox="-42 0 512 512.002" id="svg-b157"><path d="m210.351562 246.632812c33.882813 0 63.222657-12.152343 87.195313-36.128906 23.972656-23.972656 36.125-53.304687 36.125-87.191406 0-33.875-12.152344-63.210938-36.128906-87.191406-23.976563-23.96875-53.3125-36.121094-87.191407-36.121094-33.886718 0-63.21875 12.152344-87.191406 36.125s-36.128906 53.308594-36.128906 87.1875c0 33.886719 12.15625 63.222656 36.132812 87.195312 23.976563 23.96875 53.3125 36.125 87.1875 36.125zm0 0"></path><path d="m426.128906 393.703125c-.691406-9.976563-2.089844-20.859375-4.148437-32.351563-2.078125-11.578124-4.753907-22.523437-7.957031-32.527343-3.308594-10.339844-7.808594-20.550781-13.371094-30.335938-5.773438-10.15625-12.554688-19-20.164063-26.277343-7.957031-7.613282-17.699219-13.734376-28.964843-18.199219-11.226563-4.441407-23.667969-6.691407-36.976563-6.691407-5.226563 0-10.28125 2.144532-20.042969 8.5-6.007812 3.917969-13.035156 8.449219-20.878906 13.460938-6.707031 4.273438-15.792969 8.277344-27.015625 11.902344-10.949219 3.542968-22.066406 5.339844-33.039063 5.339844-10.972656 0-22.085937-1.796876-33.046874-5.339844-11.210938-3.621094-20.296876-7.625-26.996094-11.898438-7.769532-4.964844-14.800782-9.496094-20.898438-13.46875-9.75-6.355468-14.808594-8.5-20.035156-8.5-13.3125 0-25.75 2.253906-36.972656 6.699219-11.257813 4.457031-21.003906 10.578125-28.96875 18.199219-7.605469 7.28125-14.390625 16.121094-20.15625 26.273437-5.558594 9.785157-10.058594 19.992188-13.371094 30.339844-3.199219 10.003906-5.875 20.945313-7.953125 32.523437-2.058594 11.476563-3.457031 22.363282-4.148437 32.363282-.679688 9.796875-1.023438 19.964844-1.023438 30.234375 0 26.726562 8.496094 48.363281 25.25 64.320312 16.546875 15.746094 38.441406 23.734375 65.066406 23.734375h246.53125c26.625 0 48.511719-7.984375 65.0625-23.734375 16.757813-15.945312 25.253906-37.585937 25.253906-64.324219-.003906-10.316406-.351562-20.492187-1.035156-30.242187zm0 0"></path></svg></span>
-                <h5 class="u-text u-text-2">адвокат<br>борис братанов
-                </h5>
-               
+            <div
+              class="
+                u-align-center
+                u-container-style
+                u-list-item
+                u-repeater-item
+                u-white
+                u-list-item-1
+              "
+            >
+              <div
+                class="
+                  u-container-layout
+                  u-similar-container
+                  u-valign-top
+                  u-container-layout-2
+                "
+              >
+                <span
+                  class="
+                    u-border-2
+                    u-border-custom-color-1
+                    u-icon
+                    u-icon-circle
+                    u-spacing-10
+                    u-text-custom-color-2
+                    u-icon-1
+                  "
+                  ><svg
+                    class="u-svg-link"
+                    preserveAspectRatio="xMidYMin slice"
+                    viewBox="0 0 350 350"
+                    style=""
+                  >
+                    <use
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xlink:href="#svg-2667"
+                    ></use></svg
+                  ><svg
+                    class="u-svg-content"
+                    viewBox="0 0 350 350"
+                    x="0px"
+                    y="0px"
+                    id="svg-2667"
+                    style="enable-background: new 0 0 350 350"
+                  >
+                    <g>
+                      <path
+                        d="M175,171.173c38.914,0,70.463-38.318,70.463-85.586C245.463,38.318,235.105,0,175,0s-70.465,38.318-70.465,85.587   C104.535,132.855,136.084,171.173,175,171.173z"
+                      ></path>
+                      <path
+                        d="M41.909,301.853C41.897,298.971,41.885,301.041,41.909,301.853L41.909,301.853z"
+                      ></path>
+                      <path
+                        d="M308.085,304.104C308.123,303.315,308.098,298.63,308.085,304.104L308.085,304.104z"
+                      ></path>
+                      <path
+                        d="M307.935,298.397c-1.305-82.342-12.059-105.805-94.352-120.657c0,0-11.584,14.761-38.584,14.761   s-38.586-14.761-38.586-14.761c-81.395,14.69-92.803,37.805-94.303,117.982c-0.123,6.547-0.18,6.891-0.202,6.131   c0.005,1.424,0.011,4.058,0.011,8.651c0,0,19.592,39.496,133.08,39.496c113.486,0,133.08-39.496,133.08-39.496   c0-2.951,0.002-5.003,0.005-6.399C308.062,304.575,308.018,303.664,307.935,298.397z"
+                      ></path>
+                    </g></svg
+                ></span>
+                <h5 class="u-text u-text-2">адвокат<br />борис братанов</h5>
+                <p class="u-text u-text-3">
+                  SoHo 94 Broadway St New York, NY 1001
+                </p>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-2">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3"><span style="border-color: red;" class="u-border-2 u-border-palette-1-base u-icon u-icon-circle u-spacing-10 u-text-custom-color-1 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 513.64 513.64" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9786"></use></svg><svg class="u-svg-content" viewBox="0 0 513.64 513.64" x="0px" y="0px" id="svg-9786" style="enable-background:new 0 0 513.64 513.64;"><g><g><path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72    c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68    c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44    l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"></path>
-</g>
-</g></svg></span>
+            <div
+              class="
+                u-align-center
+                u-container-style
+                u-list-item
+                u-repeater-item
+                u-white
+                u-list-item-2
+              "
+            >
+              <div
+                class="
+                  u-container-layout
+                  u-similar-container
+                  u-valign-top
+                  u-container-layout-3
+                "
+              >
+                <span
+                  class="
+                    u-border-2
+                    u-border-custom-color-1
+                    u-icon
+                    u-icon-circle
+                    u-spacing-10
+                    u-text-custom-color-2
+                    u-icon-2
+                  "
+                  ><svg
+                    class="u-svg-link"
+                    preserveAspectRatio="xMidYMin slice"
+                    viewBox="0 0 513.64 513.64"
+                    style=""
+                  >
+                    <use
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xlink:href="#svg-9786"
+                    ></use></svg
+                  ><svg
+                    class="u-svg-content"
+                    viewBox="0 0 513.64 513.64"
+                    x="0px"
+                    y="0px"
+                    id="svg-9786"
+                    style="enable-background: new 0 0 513.64 513.64"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72    c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68    c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44    l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"
+                        ></path>
+                      </g>
+                    </g></svg
+                ></span>
                 <h5 class="u-text u-text-4">телефон за контакти</h5>
                 <p class="u-text u-text-5">
-                  <a href="tel:+359898311818" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2">+359 898 311 818</a>
+                  <a
+                    href="tel:+359898311818"
+                    class="
+                      u-active-none
+                      u-border-none
+                      u-btn
+                      u-button-style
+                      u-hover-none
+                      u-none
+                      u-text-palette-1-base
+                      u-btn-2
+                    "
+                    >+359 898 311 818</a
+                  >
                 </p>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-3">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4"><span style="border-color: red;" class="u-border-2 u-border-palette-1-base u-icon u-icon-circle u-spacing-10 u-text-custom-color-1 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 52 52" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ca08"></use></svg><svg class="u-svg-content" viewBox="0 0 52 52" x="0px" y="0px" id="svg-ca08" style="enable-background:new 0 0 52 52;"><path style="fill:currentColor;" d="M38.853,5.324L38.853,5.324c-7.098-7.098-18.607-7.098-25.706,0h0
-	C6.751,11.72,6.031,23.763,11.459,31L26,52l14.541-21C45.969,23.763,45.249,11.72,38.853,5.324z M26.177,24c-3.314,0-6-2.686-6-6
-	s2.686-6,6-6s6,2.686,6,6S29.491,24,26.177,24z"></path></svg></span>
+            <div
+              class="
+                u-align-center
+                u-container-style
+                u-list-item
+                u-repeater-item
+                u-white
+                u-list-item-3
+              "
+            >
+              <div
+                class="
+                  u-container-layout
+                  u-similar-container
+                  u-valign-top
+                  u-container-layout-4
+                "
+              >
+                <span
+                  class="
+                    u-border-2
+                    u-border-custom-color-1
+                    u-icon
+                    u-icon-circle
+                    u-spacing-10
+                    u-text-custom-color-2
+                    u-icon-3
+                  "
+                  ><svg
+                    class="u-svg-link"
+                    preserveAspectRatio="xMidYMin slice"
+                    viewBox="0 0 512 512"
+                    style=""
+                  >
+                    <use
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xlink:href="#svg-5696"
+                    ></use></svg
+                  ><svg
+                    class="u-svg-content"
+                    viewBox="0 0 512 512"
+                    x="0px"
+                    y="0px"
+                    id="svg-5696"
+                    style="enable-background: new 0 0 512 512"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M256,0C153.755,0,70.573,83.182,70.573,185.426c0,126.888,165.939,313.167,173.004,321.035    c6.636,7.391,18.222,7.378,24.846,0c7.065-7.868,173.004-194.147,173.004-321.035C441.425,83.182,358.244,0,256,0z M256,278.719    c-51.442,0-93.292-41.851-93.292-93.293S204.559,92.134,256,92.134s93.291,41.851,93.291,93.293S307.441,278.719,256,278.719z"
+                        ></path>
+                      </g>
+                    </g></svg
+                ></span>
                 <h5 class="u-text u-text-6">МОЯТ АДРЕС</h5>
-                <p class="u-text u-text-7"> гр. Варна, ж.к. Трошево,<br>&nbsp;ул. Добромир 19
+                <p class="u-text u-text-7">
+                  гр. Варна, ж.к. Трошево,<br />&nbsp;ул. Добромир 19
                 </p>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-4">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-5"><span style="border-color: red;" class="u-border-2 u-border-palette-1-base u-icon u-icon-circle u-spacing-10 u-text-custom-color-1 u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9f82"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-9f82" style="enable-background:new 0 0 512 512;"><g><g><path d="M507.49,101.721L352.211,256L507.49,410.279c2.807-5.867,4.51-12.353,4.51-19.279V121    C512,114.073,510.297,107.588,507.49,101.721z"></path>
-</g>
-</g><g><g><path d="M467,76H45c-6.927,0-13.412,1.703-19.279,4.51l198.463,197.463c17.548,17.548,46.084,17.548,63.632,0L486.279,80.51    C480.412,77.703,473.927,76,467,76z"></path>
-</g>
-</g><g><g><path d="M4.51,101.721C1.703,107.588,0,114.073,0,121v270c0,6.927,1.703,13.413,4.51,19.279L159.789,256L4.51,101.721z"></path>
-</g>
-</g><g><g><path d="M331,277.211l-21.973,21.973c-29.239,29.239-76.816,29.239-106.055,0L181,277.211L25.721,431.49    C31.588,434.297,38.073,436,45,436h422c6.927,0,13.412-1.703,19.279-4.51L331,277.211z"></path>
-</g>
-</g></svg></span>
+            <div
+              class="
+                u-align-center
+                u-container-style
+                u-list-item
+                u-repeater-item
+                u-white
+                u-list-item-4
+              "
+            >
+              <div
+                class="
+                  u-container-layout
+                  u-similar-container
+                  u-valign-top
+                  u-container-layout-5
+                "
+              >
+                <span
+                  class="
+                    u-border-2
+                    u-border-custom-color-1
+                    u-icon
+                    u-icon-circle
+                    u-spacing-10
+                    u-text-custom-color-2
+                    u-icon-4
+                  "
+                  ><svg
+                    class="u-svg-link"
+                    preserveAspectRatio="xMidYMin slice"
+                    viewBox="0 0 512 512"
+                    style=""
+                  >
+                    <use
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xlink:href="#svg-9f82"
+                    ></use></svg
+                  ><svg
+                    class="u-svg-content"
+                    viewBox="0 0 512 512"
+                    x="0px"
+                    y="0px"
+                    id="svg-9f82"
+                    style="enable-background: new 0 0 512 512"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M507.49,101.721L352.211,256L507.49,410.279c2.807-5.867,4.51-12.353,4.51-19.279V121    C512,114.073,510.297,107.588,507.49,101.721z"
+                        ></path>
+                      </g>
+                    </g>
+                    <g>
+                      <g>
+                        <path
+                          d="M467,76H45c-6.927,0-13.412,1.703-19.279,4.51l198.463,197.463c17.548,17.548,46.084,17.548,63.632,0L486.279,80.51    C480.412,77.703,473.927,76,467,76z"
+                        ></path>
+                      </g>
+                    </g>
+                    <g>
+                      <g>
+                        <path
+                          d="M4.51,101.721C1.703,107.588,0,114.073,0,121v270c0,6.927,1.703,13.413,4.51,19.279L159.789,256L4.51,101.721z"
+                        ></path>
+                      </g>
+                    </g>
+                    <g>
+                      <g>
+                        <path
+                          d="M331,277.211l-21.973,21.973c-29.239,29.239-76.816,29.239-106.055,0L181,277.211L25.721,431.49    C31.588,434.297,38.073,436,45,436h422c6.927,0,13.412-1.703,19.279-4.51L331,277.211z"
+                        ></path>
+                      </g>
+                    </g></svg
+                ></span>
                 <h5 class="u-text u-text-8">Email</h5>
                 <p class="u-text u-text-9">
-                  <a href="mailto:b.bratanoff@mail.bg" class="u-active-none u-border-1 u-border-palette-2-base u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-2-base u-btn-3"> b.bratanoff@mail.bg</a>
+                  <a
+                    href="mailto:hello@theme.com"
+                    class="
+                      u-active-none
+                      u-border-1
+                      u-border-palette-2-base
+                      u-btn
+                      u-button-link
+                      u-button-style
+                      u-hover-none
+                      u-none
+                      u-text-palette-2-base
+                      u-btn-3
+                    "
+                  >
+                    b.bratanoff@mail.bg</a
+                  >
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
     </section>
 
