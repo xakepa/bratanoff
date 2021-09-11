@@ -338,8 +338,7 @@ label {
 .law {
   padding: 20px;
   background: red;
-  width: 12%;
-  height: 30vh;
+  width: 12.5%;
   border-radius: 8px;
   border: 2px solid black;
   position: relative;
@@ -351,8 +350,9 @@ label {
   color: #fff;
 }
 
-#administrative {
-  margin-top: 130px;
+.view-btn {
+  margin-top: 160px;
+  cursor: pointer;
   font-family: "Arial";
   background-color: grey;
   font-size: 12px;
@@ -367,7 +367,11 @@ label {
   font-weight: 800;
 }
 
-#administrative:hover {
+#administrative {
+  margin-top: 138px;
+}
+
+.view-btn:hover {
   border: none;
   background-color: rgb(177, 177, 177);
 }
@@ -434,7 +438,6 @@ label {
   transform: translateY(0px);
   transition: all 0.5s;
   width: 50em;
-  height: 30vh;
   z-index: 1;
 }
 .wrap.active:before {
