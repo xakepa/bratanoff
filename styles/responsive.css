@@ -116,4 +116,13 @@
     padding: 40px 60px;
     text-align: center;
   }
+
+  div.laws-wrapper {
+    flex-flow: column;
+  }
+
+  article.law {
+    width: 100%;
+    margin-bottom: 3em;
+  }
 }
