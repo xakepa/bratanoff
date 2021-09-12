@@ -1,5 +1,11 @@
 $("#administrative").on("click", function () {
-  $(".wrap, a").toggleClass("active");
+  $(".administrative, a").toggleClass("active");
+
+  return false;
+});
+
+$("#citizen").on("click", function () {
+  $(".citizen, a").toggleClass("active");
 
   return false;
 });
@@ -10,7 +16,6 @@ $(document).ready(function () {
       $(this).text() == "скрий текста" ? "Покажи повече" : "скрий текста"
     );
     $(this).toggleClass("btn-active");
-    // $(this).toggleClass("active"); // this toggle all .wrap page
   });
 });
 
