@@ -1,8 +1,8 @@
-// $("#administrative").on("click", function () {
-//   $(".wrap, a").toggleClass("active");
+$("#administrative").on("click", function () {
+  $(".wrap, a").toggleClass("active");
 
-//   return false;
-// });
+  return false;
+});
 
 $(document).ready(function () {
   $(".view-btn").click(function () {
@@ -10,7 +10,7 @@ $(document).ready(function () {
       $(this).text() == "скрий текста" ? "Покажи повече" : "скрий текста"
     );
     $(this).toggleClass("btn-active");
-    $(this).toggleClass("active"); // this toggle all .wrap page
+    // $(this).toggleClass("active"); // this toggle all .wrap page
   });
 });
 
