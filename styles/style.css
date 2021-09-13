@@ -85,12 +85,14 @@ img {
 }
 
 .avatar {
-  width: 35%;
+  width: 23.2%;
   height: 50%;
+  margin-left: 2em;
 }
 
 .avatar img {
   width: 100%;
+  border-radius: 8px;
 }
 
 .bio {
