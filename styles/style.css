@@ -85,7 +85,7 @@ img {
 }
 
 .avatar {
-  width: 23.2%;
+  width: 22.2%;
   height: 50%;
   margin-left: 2em;
 }
@@ -97,7 +97,7 @@ img {
 
 .bio {
   margin-left: 8.5%;
-  width: 80%;
+  /* width: 80%; */
   background: rgb(160, 1, 1);
   border-radius: 8px;
   padding: 10px 30px;
@@ -183,7 +183,7 @@ img {
   margin: 50px 0;
   color: red;
   background: #ddd848;
-  width: 100%;
+  width: 109%;
   height: 50px;
   line-height: 50px;
   overflow: hidden;
@@ -225,6 +225,8 @@ img {
   color: #000;
   background: #ddd848;
   border-radius: 8px;
+  max-width: 30%;
+  margin-left: 3em;
 }
 
 .contact ul {
