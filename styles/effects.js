@@ -4,8 +4,8 @@ $("#administrative").on("click", function () {
   return false;
 });
 
-$("#citizen").on("click", function () {
-  $(".citizen, a").toggleClass("active");
+$("#criminal").on("click", function () {
+  $(".criminal, a").toggleClass("active");
 
   return false;
 });
