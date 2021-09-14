@@ -322,6 +322,7 @@ label {
 .law h2 {
   font-size: 20px;
   color: #fff;
+  max-width: 85%;
 }
 
 .view-btn {
