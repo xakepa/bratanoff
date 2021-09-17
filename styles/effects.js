@@ -16,6 +16,24 @@ $("#family").on("click", function () {
   return false;
 });
 
+$("#citizen").on("click", function () {
+  $(".citizen, a").toggleClass("active");
+
+  return false;
+});
+
+$("#company").on("click", function () {
+  $(".company, a").toggleClass("active");
+
+  return false;
+});
+
+$("#bank").on("click", function () {
+  $(".bank, a").toggleClass("active");
+
+  return false;
+});
+
 $(document).ready(function () {
   $(".view-btn").click(function () {
     $(this).text(
