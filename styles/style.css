@@ -382,6 +382,7 @@ label {
 .wrap {
   position: absolute;
   overflow: scroll;
+  overflow-x: hidden;
   top: 10%;
   right: 10%;
   bottom: 85px;
@@ -425,7 +426,7 @@ label {
   z-index: 1;
 }
 .wrap.active:before {
-  height: 2000px;
+  height: 150em;
   width: 2000px;
   top: 50%;
   left: 50%;
@@ -440,6 +441,22 @@ label {
   z-index: 1;
   opacity: 1;
   transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.wrap.active .administrative::before {
+  height: 125em;
+}
+
+.criminal-list {
+  list-style-type: "◈";
+}
+
+.criminal-list li {
+  padding: 10px 20px;
+}
+
+.wrap.criminal.active {
+  left: -18em;
 }
 
 /* -------------------------------------------------------------------- *\
@@ -505,7 +522,7 @@ label {
   will-change: transform, opacity;
   -webkit-animation: carousel-animate-vertical 27s linear infinite;
   animation: carousel-animate-vertical 27s linear infinite;
-  animation-direction: reverse;
+  /* animation-direction: reverse; */
 }
 
 .carousel__item:nth-child(1) {
@@ -753,4 +770,14 @@ label {
   color: rgb(204, 204, 204);
   padding-top: 30px;
   font-family: "Arial";
+}
+
+.copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  color: #7360f2;
+  text-decoration: underline;
 }
