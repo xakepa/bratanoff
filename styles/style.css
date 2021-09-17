@@ -426,7 +426,7 @@ label {
   z-index: 1;
 }
 .wrap.active:before {
-  height: 150em;
+  height: 160em;
   width: 2000px;
   top: 50%;
   left: 50%;
@@ -443,20 +443,28 @@ label {
   transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.wrap.active .administrative::before {
-  height: 125em;
+.wrap.active.administrative::before {
+  height: 128em;
 }
 
-.criminal-list {
+.wrap.active.criminal::before {
+  height: 145em;
+}
+
+.rhombus-list-style {
   list-style-type: "◈";
 }
 
-.criminal-list li {
-  padding: 10px 20px;
+.rhombus-list-style li {
+  padding: 5px 0 0 20px;
 }
 
 .wrap.criminal.active {
   left: -18em;
+}
+
+.wrap.family.active {
+  left: -38em;
 }
 
 /* -------------------------------------------------------------------- *\

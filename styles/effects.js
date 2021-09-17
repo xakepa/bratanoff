@@ -10,6 +10,12 @@ $("#criminal").on("click", function () {
   return false;
 });
 
+$("#family").on("click", function () {
+  $(".family, a").toggleClass("active");
+
+  return false;
+});
+
 $(document).ready(function () {
   $(".view-btn").click(function () {
     $(this).text(
