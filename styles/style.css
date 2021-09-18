@@ -447,7 +447,15 @@ label {
 }
 
 .wrap.active.criminal::before {
-  height: 145em;
+  height: 147em;
+}
+
+.wrap.active.family::before {
+  height: 164em;
+}
+
+.wrap.active.company::before {
+  height: 150em;
 }
 
 .rhombus-list-style {
@@ -462,8 +470,16 @@ label {
   left: -18em;
 }
 
+.wrap.company.active {
+  left: -77em;
+}
+
 .wrap.family.active {
   left: -38em;
+}
+
+.wrap.bank.active {
+  left: -96.5em;
 }
 
 .alphabetical li {
