@@ -88,3 +88,11 @@ function YNconfirm() {
     window.location.href = "https://lex.bg/laws/tree/laws";
   }
 }
+
+$("[data-autoscroll]").autoscroll({
+  interval: 100,
+});
+
+$("[data-autoscroll]").autoscroll({
+  hideScrollbar: false,
+});
