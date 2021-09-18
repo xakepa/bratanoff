@@ -381,8 +381,7 @@ label {
 
 .wrap {
   position: absolute;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow: hidden;
   top: 10%;
   right: 10%;
   bottom: 85px;
@@ -478,7 +477,7 @@ label {
 
 .conclusion {
   margin: auto;
-  background-color: rgba(245, 245, 245, 0.822);
+  background-color: #efefef;
   max-width: 60%;
   border-radius: 8px;
   margin-top: 30px;

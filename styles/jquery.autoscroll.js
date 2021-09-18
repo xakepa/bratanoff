@@ -47,7 +47,7 @@
   $.fn.autoscroll.defaults = {
     interval: 50,
     hideScrollbar: true,
-    handlerIn: null,
+    handlerIn: "touchstart",
     handlerOut: null,
   };
 
