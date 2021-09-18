@@ -472,6 +472,24 @@ label {
   padding-bottom: 5px;
 }
 
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.conclusion {
+  margin: auto;
+  background-color: rgba(245, 245, 245, 0.822);
+  max-width: 60%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.conclusion p {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
 /* -------------------------------------------------------------------- *\
 	ROULETTE
 \* -------------------------------------------------------------------- */
