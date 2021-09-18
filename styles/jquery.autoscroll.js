@@ -1,10 +1,10 @@
 (function ($) {
   $.fn.autoscroll = function (options) {
-    var settings = $.extend({}, $.fn.autoscroll.defaults, options);
+    let settings = $.extend({}, $.fn.autoscroll.defaults, options);
     return this.each(function () {
-      var $this = $(this);
+      let $this = $(this);
       if ($this.length > 0 && $this[0].scrollHeight > $this[0].clientHeight) {
-        var scrollTimer,
+        let scrollTimer,
           scrollTop = 0;
 
         function scrollList() {
@@ -18,27 +18,29 @@
           }
         }
 
-        $this.hover(
-          function () {
-            clearInterval(scrollTimer);
-            $this.css("overflow-y", "auto");
-            if (settings.hideScrollbar) {
-              $this.addClass("hide-scrollbar");
+        $this
+          .hover(
+            function () {
+              clearInterval(scrollTimer);
+              $this.css("overflow-y", "auto");
+              if (settings.hideScrollbar) {
+                $this.addClass("hide-scrollbar");
+              }
+              if ($.type(settings.handlerIn) === "function") {
+                settings.handlerIn();
+              }
+            },
+            function () {
+              $this.css("overflow-y", "hidden");
+              scrollTimer = setInterval(function () {
+                scrollList();
+              }, settings.interval);
+              if ($.type(settings.handlerOut) === "function") {
+                settings.handlerOut();
+              }
             }
-            if ($.type(settings.handlerIn) === "function") {
-              settings.handlerIn();
-            }
-          },
-          function () {
-            $this.css("overflow-y", "hidden");
-            scrollTimer = setInterval(function () {
-              scrollList();
-            }, settings.interval);
-            if ($.type(settings.handlerOut) === "function") {
-              settings.handlerOut();
-            }
-          }
-        );
+          )
+          .trigger("touchstart");
       }
     });
   };
@@ -48,6 +50,7 @@
     handlerIn: null,
     handlerOut: null,
   };
+
   $(function () {
     $("[data-autoscroll]").autoscroll();
   });
