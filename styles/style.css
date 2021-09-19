@@ -568,7 +568,7 @@ label {
   will-change: transform, opacity;
   -webkit-animation: carousel-animate-vertical 27s linear infinite;
   animation: carousel-animate-vertical 27s linear infinite;
-  animation-direction: reverse;
+  /* animation-direction: reverse; */
 }
 
 .carousel__item:nth-child(1) {
