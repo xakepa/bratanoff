@@ -568,7 +568,6 @@ label {
   will-change: transform, opacity;
   -webkit-animation: carousel-animate-vertical 27s linear infinite;
   animation: carousel-animate-vertical 27s linear infinite;
-  /* animation-direction: reverse; */
 }
 
 .carousel__item:nth-child(1) {
@@ -656,15 +655,15 @@ label {
 
 @-webkit-keyframes carousel-animate-vertical {
   0% {
-    -webkit-transform: translateY(100%) scale(0.5);
-    transform: translateY(100%) scale(0.5);
+    -webkit-transform: translateY(-100%) scale(0.5);
+    transform: translateY(-100%) scale(0.5);
     opacity: 0;
     visibility: hidden;
   }
   3%,
   11.11111% {
-    -webkit-transform: translateY(100%) scale(0.7);
-    transform: translateY(100%) scale(0.7);
+    -webkit-transform: translateY(-100%) scale(0.7);
+    transform: translateY(-100%) scale(0.7);
     opacity: 0.4;
     visibility: visible;
   }
@@ -677,20 +676,20 @@ label {
   }
   25.22222%,
   33.33333% {
-    -webkit-transform: translateY(-100%) scale(0.7);
-    transform: translateY(-100%) scale(0.7);
+    -webkit-transform: translateY(100%) scale(0.7);
+    transform: translateY(100%) scale(0.7);
     opacity: 0.4;
     visibility: visible;
   }
   36.33333% {
-    -webkit-transform: translateY(-100%) scale(0.5);
-    transform: translateY(-100%) scale(0.5);
+    -webkit-transform: translateY(100%) scale(0.5);
+    transform: translateY(100%) scale(0.5);
     opacity: 0;
     visibility: visible;
   }
   100% {
-    -webkit-transform: translateY(-100%) scale(0.5);
-    transform: translateY(-100%) scale(0.5);
+    -webkit-transform: translateY(100%) scale(0.5);
+    transform: translateY(100%) scale(0.5);
     opacity: 0;
     visibility: hidden;
   }
@@ -698,15 +697,15 @@ label {
 
 @keyframes carousel-animate-vertical {
   0% {
-    -webkit-transform: translateY(100%) scale(0.5);
-    transform: translateY(100%) scale(0.5);
+    -webkit-transform: translateY(-100%) scale(0.5);
+    transform: translateY(-100%) scale(0.5);
     opacity: 0;
     visibility: hidden;
   }
   3%,
   11.11111% {
-    -webkit-transform: translateY(100%) scale(0.7);
-    transform: translateY(100%) scale(0.7);
+    -webkit-transform: translateY(-100%) scale(0.7);
+    transform: translateY(-100%) scale(0.7);
     opacity: 0.4;
     visibility: visible;
   }
@@ -719,20 +718,20 @@ label {
   }
   25.22222%,
   33.33333% {
-    -webkit-transform: translateY(-100%) scale(0.7);
-    transform: translateY(-100%) scale(0.7);
+    -webkit-transform: translateY(100%) scale(0.7);
+    transform: translateY(100%) scale(0.7);
     opacity: 0.4;
     visibility: visible;
   }
   36.33333% {
-    -webkit-transform: translateY(-100%) scale(0.5);
-    transform: translateY(-100%) scale(0.5);
+    -webkit-transform: translateY(100%) scale(0.5);
+    transform: translateY(100%) scale(0.5);
     opacity: 0;
     visibility: visible;
   }
   100% {
-    -webkit-transform: translateY(-100%) scale(0.5);
-    transform: translateY(-100%) scale(0.5);
+    -webkit-transform: translateY(100%) scale(0.5);
+    transform: translateY(100%) scale(0.5);
     opacity: 0;
     visibility: hidden;
   }
