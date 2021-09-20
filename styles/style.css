@@ -373,6 +373,7 @@ label {
   padding-bottom: 15px;
   margin-bottom: 15px;
   text-align: center;
+  margin: auto;
 }
 
 .content p {
@@ -458,6 +459,10 @@ label {
   height: 150em;
 }
 
+.wrap.active.bank::before {
+  height: 163em;
+}
+
 .rhombus-list-style {
   list-style-type: "◈";
 }
@@ -468,6 +473,10 @@ label {
 
 .wrap.criminal.active {
   left: -18em;
+}
+
+.wrap.citizen.active {
+  left: -57.5em;
 }
 
 .wrap.company.active {
@@ -525,7 +534,6 @@ label {
 }
 
 .wrapper {
-  /* background: linear-gradient(60deg, #420285, #08bdbd); */
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -745,6 +753,10 @@ label {
   background-color: #000;
 }
 
+.footer ul {
+  list-style: none;
+}
+
 .fab {
   font-size: 50px;
 }
@@ -788,9 +800,16 @@ label {
   background: #998afa;
 }
 
+.fa-telegram-plane {
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 10px 0 3px;
+  background: #29a0dc;
+}
+
 .social__media {
   display: flex;
-  max-width: 300px;
+  max-width: 400px;
   justify-content: space-between;
   padding: 40px 0;
   margin: 0 auto;
