@@ -326,6 +326,7 @@ label {
 }
 
 .view-btn {
+  margin-top: 138px;
   cursor: pointer;
   max-width: 80%;
   font-family: "Arial";
@@ -340,10 +341,6 @@ label {
   text-align: center;
   font-weight: 800;
   border: 2px solid grey;
-}
-
-#administrative {
-  margin-top: 138px;
 }
 
 .btn-active {
