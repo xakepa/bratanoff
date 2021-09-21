@@ -3,6 +3,10 @@
     width: 100%;
   }
 
+  div.slogan {
+    padding: 15px 30px 15px 0;
+  }
+
   ul.menu-ul {
     justify-content: space-evenly;
   }
@@ -51,6 +55,10 @@
 @media only screen and (max-width: 414px) {
   * {
     box-sizing: border-box;
+  }
+
+  div.slogan {
+    padding: 15px 30px 15px 0;
   }
 
   nav.menu {
@@ -133,5 +141,4 @@
   div.wrap {
     max-width: 100%;
   }
-
 }

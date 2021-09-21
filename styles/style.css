@@ -77,11 +77,16 @@ img {
 }
 
 .slogan {
-  margin-left: 550px;
+  text-align: center;
+  padding-left: 25em;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .slogan h1 {
-  margin: 0;
+  margin: 0 auto;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.1em blue;
 }
 
 .avatar {
