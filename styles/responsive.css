@@ -59,6 +59,10 @@
     justify-content: center;
   }
 
+  .slogan h1 {
+    padding-top: 1.5em;
+  }
+
   nav.menu .menu-ul {
     flex-flow: column wrap;
     padding-left: 0;
