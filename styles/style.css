@@ -89,7 +89,6 @@ img {
 .slogan h1 {
   margin: 0 auto;
   font-size: 18px;
-  text-shadow: #fff 1px 0 10px;
 }
 
 .avatar {
@@ -468,7 +467,8 @@ label {
 }
 
 .rhombus-list-style {
-  list-style-type: "◈";
+  list-style-type: none;
+  list-style-image: url("../images/rhombus-icon.png");
 }
 
 .rhombus-list-style li {
