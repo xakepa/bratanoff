@@ -3,6 +3,11 @@
     width: 100%;
   }
 
+  .slogan {
+    bottom: 0;
+    top: 10px;
+  }
+
   ul.menu-ul {
     justify-content: space-evenly;
   }
@@ -46,6 +51,19 @@
   section.presentation {
     padding: 30px 84px 30px;
   }
+
+  div.laws-wrapper {
+    flex-flow: column;
+  }
+
+  article.law {
+    width: 100%;
+    margin: 0 auto 3em auto;
+  }
+
+  div.wrap.active {
+    width: 54em;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -57,10 +75,6 @@
     height: auto;
     position: static;
     justify-content: center;
-  }
-
-  .slogan h1 {
-    padding-top: 1.5em;
   }
 
   nav.menu .menu-ul {
@@ -134,7 +148,39 @@
     margin-bottom: 3em;
   }
 
-  div.wrap {
+  div.wrap.active {
+    max-width: 400px;
+  }
+
+  div.wrap.active,
+  div.wrap.criminal.active,
+  div.wrap.family.active,
+  div.wrap.citizen.active,
+  div.wrap.company.active,
+  div.wrap.bank.active {
+    left: -3.3em;
+    top: -20em;
+  }
+
+  div.wrap.active.bank::before {
+    height: 476em;
+  }
+
+  div.wrap.active.family::before,
+  div.wrap.active.company::before {
+    height: 408em;
+  }
+
+  div.wrap.active.administrative::before {
+    height: 383em;
+  }
+
+  div.wrap.active.criminal::before,
+  div.wrap.active.citizen::before {
+    height: 387em;
+  }
+
+  div.conclusion {
     max-width: 100%;
   }
 }
