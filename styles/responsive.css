@@ -48,6 +48,11 @@
     font-size: 16px;
   }
 
+  section.contact {
+    margin: 10em auto;
+    width: 80%;
+  }
+
   section.presentation {
     padding: 30px 84px 30px;
   }
@@ -62,7 +67,16 @@
   }
 
   div.wrap.active {
-    width: 54em;
+    max-width: 90%;
+  }
+
+  div.wrap.active,
+  div.wrap.criminal.active,
+  div.wrap.family.active,
+  div.wrap.citizen.active,
+  div.wrap.company.active,
+  div.wrap.bank.active {
+    left: 2.8em;
   }
 }
 
@@ -162,25 +176,11 @@
     top: -20em;
   }
 
-  div.wrap.active.bank::before {
-    height: 476em;
-  }
-
-  div.wrap.active.family::before,
-  div.wrap.active.company::before {
-    height: 408em;
-  }
-
-  div.wrap.active.administrative::before {
-    height: 383em;
-  }
-
-  div.wrap.active.criminal::before,
-  div.wrap.active.citizen::before {
-    height: 387em;
-  }
-
   div.conclusion {
     max-width: 100%;
+  }
+
+  div.carousel {
+    max-width: 90%;
   }
 }

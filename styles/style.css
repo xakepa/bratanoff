@@ -427,6 +427,7 @@ label {
   transition: all 0.5s;
   width: 109em;
   z-index: 1;
+  background: #fff;
 }
 .wrap.active:before {
   height: 160em;
@@ -444,26 +445,6 @@ label {
   z-index: 1;
   opacity: 1;
   transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.wrap.active.administrative::before {
-  height: 148em;
-}
-
-.wrap.active.criminal::before {
-  height: 147em;
-}
-
-.wrap.active.family::before {
-  height: 164em;
-}
-
-.wrap.active.company::before {
-  height: 150em;
-}
-
-.wrap.active.bank::before {
-  height: 163em;
 }
 
 .rhombus-list-style {
