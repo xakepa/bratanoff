@@ -545,6 +545,18 @@ label {
   flex-direction: column;
 }
 
+.carousel__item-body p:nth-child(1) {
+  color: white;
+}
+
+/* .carousel__item-body p:nth-child(2) {
+  color: green;
+}
+
+.carousel__item-body p:nth-child(3) {
+  color: red;
+} */
+
 .carousel__item {
   display: -webkit-box;
   display: -ms-flexbox;
