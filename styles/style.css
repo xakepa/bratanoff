@@ -551,11 +551,11 @@ label {
 
 /* .carousel__item-body p:nth-child(2) {
   color: green;
-}
+} */
 
 .carousel__item-body p:nth-child(3) {
-  color: red;
-} */
+  font-weight: 600;
+}
 
 .carousel__item {
   display: -webkit-box;
