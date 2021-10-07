@@ -183,4 +183,17 @@
   div.carousel {
     max-width: 90%;
   }
+
+  div.carousel__item-body {
+    height: auto;
+  }
+
+  div.carousel__item-head {
+    display: none;
+  }
+
+  div.carousel__item-body {
+    font-size: 16px;
+    padding: 10px;
+  }
 }
