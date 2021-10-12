@@ -1,8 +1,8 @@
-$animation-timing: 27s; //original 27s
-$carousel-items: 9;
+$animation-timing: 240s; //original 27s
+$carousel-items: 21;
 $animation-delay-fraction: $animation-timing / $carousel-items;
 $animation-steps-fraction: 100 / $carousel-items;
-$slide-change-timing: 3; // percentage of total animation cycle
+$slide-change-timing: 0.4; // percentage of total animation cycle
 
 *,
 *::before,
@@ -54,13 +54,6 @@ body {
 .carousel__item:last-child {
   animation-delay: calc(-#{$animation-delay-fraction} * 2);
 }
-
-// example without negative delays
-// @for $i from 1 through ($carousel-items) {
-//   .carousel__item:nth-child(#{$i}) {
-//     animation-delay: calc(#{$animation-delay-fraction} * #{$i});
-//   }
-// }
 
 .carousel__item-head {
   border-radius: 50%;
